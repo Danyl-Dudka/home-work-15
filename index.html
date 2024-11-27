@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="flex justify-between container mx-auto my-12 align-middle">
+    <header class="flex justify-between container mx-auto my-12 align-middle w-[1920px]">
         <a href="#"><img src="images/Frame 57.svg" alt="logo"></a>
         <nav>
             <ul class="flex gap-16 text-2xl items-center">
@@ -43,16 +43,18 @@
                 <br>
                 <br>
             </div>
-            <img src="images/bg.png" alt="bg" class="w-[680px] h-[784px] mt-[144px]">
+            <img src="images/bg.png" alt="bg" class="mt-[144px]">
         </div>
     </section>
-    <section class="pictures w-[1920px] h-[186px] bg-yellow-200 container mx-auto">
-        <img src="images/h&m.svg" alt="h&m" class="pl-[80px] pt-[62px] inline">
-        <img src="images/obey.svg" alt="obey" class="pl-[80px] pt-[62px] inline">
-        <img src="images/shopify.svg" alt="shopify" class="pl-[80px] pt-[62px] inline">
-        <img src="images/lacoste.svg" alt="lacoste" class="pl-[80px] pt-[62px] inline">
-        <img src="images/levis.svg" alt="levis" class="pl-[80px] pt-[62px] inline">
-        <img src="images/amazon.svg" alt="amazon" class="pl-[80px] pt-[62px] inline">
+    <section class="pictures bg-yellow-200 container mx-auto pb-[56px]">
+        <div class="flex flex-wrap pt-[62px] justify-around">
+            <img src="images/h&m.svg" alt="h&m" class="w-28 h-16 object-contain">
+            <img src="images/obey.svg" alt="obey" class="w-28 h-16 object-contain">
+            <img src="images/shopify.svg" alt="shopify" class="w-28 h-16 object-contain">
+            <img src="images/lacoste.svg" alt="lacoste" class="w-28 h-16 object-contain">
+            <img src="images/levis.svg" alt="levis" class="w-28 h-16 object-contain">
+            <img src="images/amazon.svg" alt="amazon" class="w-28 h-16 object-contain">
+        </div>
     </section>
     <section class="container mx-auto mt-[70px]">
         <img src="images/new_arrivals_logo.svg" alt="logo">
@@ -172,11 +174,12 @@ GET THE VOUCHER!</pre>
         </div>
     </section>
     <section class="mt-[220px] mx-auto h-[624px] container bg-yellow-300">
-        <pre class="text-[55px] text-white section_bold pl-[320px] pt-[142px] box-border">JOIN SHOPPING COMMUNITY TO
+        <div class=" flex flex-col">
+        <pre class="text-[55px] text-white section_bold text-center pt-[140px] box-border">JOIN SHOPPING COMMUNITY TO
              GET MONTHLY PROMO</pre>
-        <p class="mt-[38px] text-[32px] text-white ml-[372px]">Type your email down below and be young wild generation
+        <p class="pt-[38px] text-[32px] text-white text-center">Type your email down below and be young wild generation
         </p>
-        <div class="w-[474px] h-[68px] bg-white flex items-center rounded-xl mt-[50px] ml-[540px]">
+        <div class="w-[474px] h-[68px] bg-white flex items-center rounded-xl mt-[50px] self-center">
             <p class="text-gray-500 pl-[28px]">Add your email here
                 <a href="#">
                     <p
@@ -184,9 +187,10 @@ GET THE VOUCHER!</pre>
                         SEND</p>
             </p> </a>
         </div>
+    </div>
     </section>
-    <footer class="container mx-auto bg-black h-[546px] flex">
-        <div class="mt-[120px] ml-[100px]">
+    <footer class="container mx-auto bg-black h-[546px] flex justify-between px-[100px] py-[126px]">
+        <div>
             <p class="section_bold text-white text-[40px]">FASHION</p>
             <p class="text-gray-500 w-[416px] text-[24px] mt-[32px]">Complete your style with awesome clothes from us.
             </p>
@@ -195,7 +199,7 @@ GET THE VOUCHER!</pre>
             <a href="#"><img src="images/twitter_logo.svg" alt="twitter" class="inline mt-[32px] ml-[14px]"></a>
             <a href="#"><img src="images/linkedin_logo.svg" alt="linkedin" class="inline mt-[32px] ml-[14px]"></a>
         </div>
-        <div class="last_footer text-[24px] ml-[216px] mt-[126px]">
+        <div class="last_footer text-[24px]">
             <ul class="text-gray-500">
                 <a href="#" class="text-white">
                     <li>Company</li>
@@ -214,7 +218,7 @@ GET THE VOUCHER!</pre>
                 </a>
             </ul>
         </div>
-        <div class="last_footer text-[24px] ml-[140px] mt-[126px]">
+        <div class="last_footer text-[24px]">
             <ul class="text-gray-500">
                 <a href="#" class="text-white">
                     <li>Quick Link</li>
@@ -233,7 +237,7 @@ GET THE VOUCHER!</pre>
                 </a>
             </ul>
         </div>
-        <div class="last_footer text-[24px] ml-[140px] mt-[126px]">
+        <div class="last_footer text-[24px]">
             <ul class="text-gray-500">
                 <a href="#" class="text-white">
                     <li>Legal</li>
