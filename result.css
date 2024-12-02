@@ -554,40 +554,6 @@ video {
   display: none;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .absolute {
   position: absolute;
 }
@@ -606,6 +572,10 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.m-\[642px\] {
+  margin: 642px;
 }
 
 .mx-auto {
@@ -639,6 +609,10 @@ video {
   margin-left: 160px;
 }
 
+.ml-\[1920px\] {
+  margin-left: 1920px;
+}
+
 .ml-\[20px\] {
   margin-left: 20px;
 }
@@ -647,8 +621,16 @@ video {
   margin-left: 48px;
 }
 
+.ml-\[642px\] {
+  margin-left: 642px;
+}
+
 .ml-\[90px\] {
   margin-left: 90px;
+}
+
+.mr-\[102px\] {
+  margin-right: 102px;
 }
 
 .mt-\[100px\] {
@@ -657,10 +639,6 @@ video {
 
 .mt-\[104px\] {
   margin-top: 104px;
-}
-
-.mt-\[144px\] {
-  margin-top: 144px;
 }
 
 .mt-\[190px\] {
@@ -703,20 +681,28 @@ video {
   margin-top: 8px;
 }
 
-.mt-\[244px\] {
-  margin-top: 244px;
+.mt-\[px\] {
+  margin-top: px;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
+.ml-\[6px\] {
+  margin-left: 6px;
 }
 
-.mt-0 {
-  margin-top: 0px;
+.ml-\[542px\] {
+  margin-left: 542px;
 }
 
-.mt-\[350px\] {
-  margin-top: 350px;
+.ml-\[582px\] {
+  margin-left: 582px;
+}
+
+.ml-\[600px\] {
+  margin-left: 600px;
+}
+
+.ml-\[640px\] {
+  margin-left: 640px;
 }
 
 .box-border {
@@ -775,6 +761,10 @@ video {
   height: 704px;
 }
 
+.h-\[784px\] {
+  height: 784px;
+}
+
 .h-\[968px\] {
   height: 968px;
 }
@@ -791,8 +781,20 @@ video {
   width: 7rem;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
 .w-\[120px\] {
   width: 120px;
+}
+
+.w-\[1640px\] {
+  width: 1640px;
+}
+
+.w-\[1720px\] {
+  width: 1720px;
 }
 
 .w-\[1920px\] {
@@ -821,6 +823,34 @@ video {
 
 .w-\[524px\] {
   width: 524px;
+}
+
+.w-\[870px\] {
+  width: 870px;
+}
+
+.w-\[1920px\[\]\] {
+  width: 1920px[];
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[100\%\$\] {
+  width: 100%$;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[\%\] {
+  width: %;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -994,6 +1024,10 @@ video {
 
 .pl-\[38px\] {
   padding-left: 38px;
+}
+
+.pl-\[494px\] {
+  padding-left: 494px;
 }
 
 .pt-20 {
